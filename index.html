@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر المواد الغذائية - الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="style.css"> <!-- ربط ملف CSS -->
+</head>
+<body>
+
+    <!-- Header - رأس الصفحة: يحتوي على الشعار، روابط التنقل، البحث، السلة، وحساب المستخدم -->
+    <header class="main-header">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="https://via.placeholder.com/80x40?text=FoodStore" alt="شعار المتجر">
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/">الرئيسية</a></li>
+                    <li><a href="/categories">الفئات</a></li>
+                    <li><a href="/offers">العروض</a></li>
+                    <li><a href="/contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <form action="/search" method="get" class="search-form">
+                    <input type="search" name="q" placeholder="ابحث عن منتجات...">
+                    <button type="submit">بحث</button>
+                </form>
+                <a href="/cart" class="cart-icon">🛒 <span class="cart-count">3</span></a>
+                <a href="/account" class="user-icon">👤</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content - المحتوى الرئيسي للصفحة -->
+    <main class="main-content container">
+        <h1 class="page-title">منتجاتنا الطازجة لهذا الأسبوع</h1>
+
+        <!-- قسم عرض المنتجات - Product Grid -->
+        <div class="product-grid">
+
+            <!-- بطاقة المنتج الأول -->
+            <div class="product-card">
+                <a href="/products/1">
+                    <img src="https://via.placeholder.com/200x200?text=تفاح" alt="تفاح أحمر عضوي">
+                </a>
+                <div class="product-info">
+                    <h3><a href="/products/1">تفاح أحمر عضوي</a></h3>
+                    <p class="product-description">أجود أنواع التفاح العضوي الطازج.</p>
+                    <p class="product-price">15.99 ر.س / كجم</p>
+                    <button class="add-to-cart-button">أضف للسلة</button>
+                </div>
+            </div>
+
+            <!-- بطاقة المنتج الثاني -->
+            <div class="product-card">
+                <a href="/products/2">
+                    <img src="https://via.placeholder.com/200x200?text=حليب" alt="حليب طازج كامل الدسم">
+                </a>
+                <div class="product-info">
+                    <h3><a href="/products/2">حليب طازج كامل الدسم</a></h3>
+                    <p class="product-description">حليب طبيعي 100%، غني بالكالسيوم.</p>
+                    <p class="product-price">8.50 ر.س / لتر</p>
+                    <button class="add-to-cart-button">أضف للسلة</button>
+                </div>
+            </div>
+
+            <!-- بطاقة المنتج الثالث -->
+            <div class="product-card">
+                <a href="/products/3">
+                    <img src="https://via.placeholder.com/200x200?text=دجاج" alt="صدور دجاج طازجة">
+                </a>
+                <div class="product-info">
+                    <h3><a href="/products/3">صدور دجاج طازجة</a></h3>
+                    <p class="product-description">صدور دجاج خالية من العظم والجلد.</p>
+                    <p class="product-price">29.00 ر.س / كجم</p>
+                    <button class="add-to-cart-button">أضف للسلة</button>
+                </div>
+            </div>
+
+            <!-- بطاقة المنتج الرابع -->
+            <div class="product-card">
+                <a href="/products/4">
+                    <img src="https://via.placeholder.com/200x200?text=خبز" alt="خبز أسمر صحي">
+                </a>
+                <div class="product-info">
+                    <h3><a href="/products/4">خبز أسمر صحي</a></h3>
+                    <p class="product-description">خبز كامل الحبوب، مثالي لوجبة الإفطار.</p>
+                    <p class="product-price">5.00 ر.س / رغيف</p>
+                    <button class="add-to-cart-button">أضف للسلة</button>
+                </div>
+            </div>
+
+            <!-- يمكنك إضافة المزيد من بطاقات المنتجات هنا -->
+
+        </div>
+    </main>
+
+    <!-- Footer - تذييل الصفحة -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 متجر المواد الغذائية. جميع الحقوق محفوظة.</p>
+            <div class="footer-links">
+                <a href="/about">عن المتجر</a>
+                <a href="/privacy">سياسة الخصوصية</a>
+                <a href="/terms">شروط الاستخدام</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
